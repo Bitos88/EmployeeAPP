@@ -11,7 +11,8 @@ import SwiftUI
 struct EmployeeAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmployeeList(vm: EmployeeListViewModel())
+            //AddEmployeeView()
         }
     }
 }
